@@ -42,8 +42,19 @@ void cau2() {
 
 
 }
+void cau3() {
+    float bankinh, chieucao;
+    cout << "Nhap ban kinh, chieu cao (cm): ";
+    cin >> bankinh >> chieucao;
+    const float PI = 3.14;
+
+    float V = PI * bankinh * bankinh * chieucao;
+    cout << "The tich khoi tru tron la: " << V << " (cm3)" << endl;
+    cout << "So Lit nuoc la: " << V / 100 << " (Lit) " << endl;
+}
+
 int main()
 {
-    cau2();
+    cau3();
 }
 
