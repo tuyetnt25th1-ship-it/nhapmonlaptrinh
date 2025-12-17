@@ -8,3 +8,11 @@ bool NguyenTo(int n) {
 	return false;
 
 }
+int DemChuSo(int n) {
+	int dem = 0;
+	while (n > 0) {
+		n /= 10;
+		dem++;
+	}
+	return dem;
+}
