@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Arry.cpp" />
     <ClCompile Include="buoi8.cpp" />
+    <ClCompile Include="Songuyen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arry.h" />
+    <ClInclude Include="Songuyen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
